@@ -3,8 +3,8 @@
 
 /**
  * print_to_98 - only natural numbers
- * @n: input number.
- * Return: no void.
+ * @n: input number
+ * Return: void.
  */
 
 void print_to_98(int n)
