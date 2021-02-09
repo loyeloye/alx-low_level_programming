@@ -1,0 +1,46 @@
+#include "holberton.h"
+
+/**
+ * jack_bauer - prints minutes of the day
+ *
+ * Return: no return
+ */
+
+void jack_bauer(void)
+{
+int a, b, c, d;
+
+for (a = 48; a <= 57; a++)
+{
+
+  for (b = 48; b <=57; b++)
+
+{
+
+  for c (c = 48; c <= 57; c++)
+
+{
+
+for d (d = 48; d <= 57; d++)
+
+{
+
+if(a >= 50 && b >= 52)
+
+break;  
+_putchar(a);
+_putchar(b);
+_putchar(58);
+_putchat(c);
+_putchar(d);
+_putchar('\n');
+
+}
+
+}
+
+}
+
+}
+
+}
