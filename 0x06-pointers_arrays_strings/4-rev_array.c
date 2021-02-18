@@ -4,15 +4,13 @@
 /**
  * reverse_array - reverse array of integers
  * @a: array
- * @n: number of elements of arrar
- *
- * Return: void
+ * @n: number of elements of arrary
  */
 
-void reveverse_array(int *a, int n)
+void reverse_array(int *a, int n)
 {
 int tmp, beg = 0;
-int end = n - 1; /*omit nul terminator in length*/
+int end = n - 1; /*omit null terminator in length*/
 while (beg < end)
 {
 tmp = *(a + beg);
