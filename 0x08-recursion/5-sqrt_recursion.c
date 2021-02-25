@@ -25,7 +25,7 @@ if (mid *mid < m)
 return (sqtRecursive(mid + 1, end, m));
 }
 return (-1);
-
+}
 /**
  * _sqrt_recursion - locates the natural squareroot of a number
  * @n: number
