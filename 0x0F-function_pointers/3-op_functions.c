@@ -1,20 +1,56 @@
-#ifndef OPERATIONS
-#define OPERATIONS
+#include "3-calc.h"
+
 /**
- * struct op - Struct op
- *
- * @op: The operator
- * @f: The function associated
+ * op_add - add
+ * @a: integer
+ * @b: integer
+ * Return: result
  */
-typedef struct op
+int op_add(int a, int b)
 {
-char *op;
-int (*f)(int a, int b);
-}	op_t;
-int op_add(int a, int b);
-int op_sub(int a, int b);
-int op_mul(int a, int b);
-int op_div(int a, int b);
-int op_mod(int a, int b);
-int (*get_op_func(char *s))(int, int);
-#endif
+return (a + b);
+}
+
+/**
+ * op_sub - subtract
+ * @a: integer
+ * @b: integer
+ * Return: result
+ */
+int op_sub(int a, int b)
+{
+return (a - b);
+}
+
+/**
+ * op_mul - multiply
+ * @a: integer
+ * @b: integer
+ * Return: result
+ */
+int op_mul(int a, int b)
+{
+return (a * b);
+}
+
+/**
+ * op_div - divide
+ * @a: integer
+ * @b: integer
+ * Return: result
+ */
+int op_div(int a, int b)
+{
+return (a / b);
+}
+
+/**
+ * op_mod - modulus for remainder
+ * @a: integer
+ * @b: integer
+ * Return: result
+ */
+int op_mod(int a, int b)
+{
+return (a % b);
+}
